@@ -25,7 +25,17 @@ int getInt(int a, int b)
 
 string intWords(int a)
 {
+	string answer = "";
+	switch (a) {
+	case 1:
+		answer = "one";
+		break;
+	case 2: 
+		answer = "two";
+		break;
+	default: 
+		answer = "Out of range";
+	}
 
-
-	return string();
+	return answer;
 }
