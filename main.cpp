@@ -19,8 +19,11 @@ int main() {
 
 int getInt(int a, int b)
 {
-	cout << "getInt() -- stub" << endl;
-	return 1;
+	int number = 0;
+	cin >> number;
+	// check to make sure it is in range
+	
+	return number;
 }
 
 string intWords(int a)
